@@ -10,7 +10,7 @@ let HomePage = function() {
             browser.get(this.getPageUrl(baseUrl));
         },
         getPageUrl: function(baseUrl) {
-            return baseUrl + 'home';
+            return baseUrl;
         },
     };
     
