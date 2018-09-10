@@ -1,4 +1,4 @@
-// navigation.smoke.conf.js
+// position-search.conf.js
 
 // Reporters
 /*

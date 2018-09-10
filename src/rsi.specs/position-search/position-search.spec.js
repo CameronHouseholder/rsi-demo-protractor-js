@@ -1,5 +1,5 @@
 /**
- * Spec representing the smoke tests for navigating the pages of oucms
+ * Spec representing the tests for searching open positions
  */
 
 // Page imports
@@ -10,7 +10,7 @@ let positionsPage = require('../../rsi.pages/careers/positions.page');
 let expectedConditionsUtil = require('../../rsi.utils/expected-conditions.util');
 let using = require('jasmine-data-provider');
 
-describe('Position Search (By Location)', function () {
+describe('Position Search', function () {
 
     beforeAll(function () {
         isAngularSite(false);
@@ -22,7 +22,7 @@ describe('Position Search (By Location)', function () {
     });
 
     using([{ location: 'Oklahoma City, OK' }, { location: 'Mobile, AL' }], function (data) {
-        it('search for open position by location', function () {
+        it('search for open position by location: ' + data.location, function () {
             // Positions page
             positionsPage.locationTextBox.clickLocationTextBox();
             positionsPage.locationCheckboxes.clickCheckbox(data.location);
