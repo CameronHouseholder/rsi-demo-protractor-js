@@ -1,0 +1,15 @@
+{
+  "name": "rural-sourcing-demo",
+  "version": "1.0.0",
+  "description": "demo for rural sourcing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cameron Householder",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-data-provider": "^2.2.0",
+    "protractor": "^5.4.1"
+  }
+}
