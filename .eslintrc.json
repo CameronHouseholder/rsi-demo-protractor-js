@@ -1,0 +1,18 @@
+{
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "plugins": [
+        "protractor"
+    ],
+    "extends": "google",
+    "rules": {
+        "max-len": 0,
+        "require-jsdoc": 0,
+        "linebreak-style": 0
+    }
+}

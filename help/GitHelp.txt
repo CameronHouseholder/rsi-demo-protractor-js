@@ -1,0 +1,14 @@
+Installing git locally:
+https://git-scm.com/download/win
+
+VS code git support site:
+https://code.visualstudio.com/docs/editor/versioncontrol
+
+Adding git path:
+File menu button > Preferences > Settings > Git section > Set git-path
+
+Deleting git branches:
+https://cmatskas.com/delete-git-branch-locally-and-remotely/
+
+Deleting remote git branches:
+git fetch --prune

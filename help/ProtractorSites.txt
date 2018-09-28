@@ -1,0 +1,12 @@
+//Protractor API Cheatsheet
+https://gist.github.com/javierarques/0c4c817d6c77b0877fda
+
+//JavaScript Executor Functions with Protractor
+http://www.webdriverjs.com/javascript-executor-protractor/
+
+//Key Names for hotkeys
+http://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/Keys.html
+
+//Protractor style guide
+https://www.protractortest.org/#/style-guide
+

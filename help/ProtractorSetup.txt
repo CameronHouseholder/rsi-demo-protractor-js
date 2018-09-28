@@ -1,0 +1,16 @@
+Protractor Setup
+
+1. Install Node.js
+https://nodejs.org/en/download/
+
+2. Install Protractor globally via command prompt
+npm install -g protractor
+
+3. Create a package.json file via command prompt
+npm init
+
+4. Update the selenium server via command prompt 
+webdriver-manager update
+
+5. Start the selenium server via command prompt 
+webdriver-manager start
